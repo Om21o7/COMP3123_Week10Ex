@@ -36,3 +36,79 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+form {
+  border: 2px solid green;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="email"],
+form input[type="text"],
+form select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+form input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+form label {
+  font-size: 0.9rem;
+}
+
+button {
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: darkgreen;
+}
+
+.submitted-info {
+  margin-top: 20px;
+  padding: 15px;
+  width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.submitted-info h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.submitted-info p {
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
+
